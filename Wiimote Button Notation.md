@@ -1,4 +1,4 @@
-#Key press event
+# Key press event
 
 The wiimote sends it's button presses as 3 bytes everytime a button either gets pressed or
 released. The first byte is always 30 in this case. The functions of the other bytes
