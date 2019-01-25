@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ImAmalox/node-wiimote-driver/issues"
   },
-  "homepage": "https://github.com/ImAmalox/node-wiimote-driver#readme"
+  "homepage": "https://github.com/ImAmalox/node-wiimote-driver#readme",
+  "dependencies": {
+    "node-hid": "^0.7.6"
+  }
 }
