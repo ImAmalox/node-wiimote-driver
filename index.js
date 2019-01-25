@@ -12,6 +12,7 @@ wiimotes.forEach(wiimote => {
 
 let wiimote = new HID.HID(paths[0]);
 
+
 wiimote.on('data', function(data) {
     console.log(data);
 });
