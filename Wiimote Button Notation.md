@@ -13,7 +13,7 @@ are as follows:
   * if = 2? -> right d-pad pressed
   * if = 4? -> bottom d-pad pressed
   * if = 8? -> top d-pad pressed
-  (following values are created by additions of the above values)
+  - (following values are created by additions of the above values)
   * if = 5? -> left d-pad + bottom d-pad pressed.
   * if = 6? -> right d-pad + bottom d-pad pressed.
   * if = 9? -> left d-pad + top d-pad pressed.
@@ -22,7 +22,7 @@ are as follows:
   * if = 0? -> neither home or minus pressed
   * if = 1? -> minus pressed
   * if = 8? -> home pressed
-  (following value is the sum of the values above)
+  - (following value is the sum of the values above)
   * if = 9? -> home and minus pressed
 - Last 4 bits of byte 3:
   * if = 0? -> neither 1, 2, a or b pressed
@@ -30,7 +30,7 @@ are as follows:
   * if = 2? -> 1 is pressed
   * if = 4? -> b is pressed
   * if = 8? -> a is pressed
-  (following values are creating by additions of the above values)
+  - (following values are creating by additions of the above values)
   * if = 3? -> 1 + 2 pressed
   * if = 5? -> 2 + b pressed
   * if = 6? -> 1 + b pressed
